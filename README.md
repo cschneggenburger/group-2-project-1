@@ -41,7 +41,7 @@ Our research focused on three key areas: the hardest-hit industries, the compani
 # Industry Analysis 
 We analyzed the layoffs in the tech sector from 2020 to 2024, to determine what industrys were most effected and to identify any trends. 
 ## Code Snippits
-The follow is a significant portion of the code used to clean, filter, and visualize the data for industry level analysis
+The following is a significant portion of the code used to clean, filter, and visualize the data for industry level analysis
 ```
 #Find total employees laid off in Top 5 companies and then all others and display results
 industry_totals = grouped_df_a['Laid_Off'].sum()
@@ -90,7 +90,7 @@ We conducted a data analysis of the top 5 tech companies (Amazon, Apple, Google,
 
 
 ## Code Snippits  
-The follow is a significant portion of the code used to clean, filter, and visualize the data for Company level analysis
+The following is a significant portion of the code used to clean, filter, and visualize the data for Company level analysis
 ```
 # compare companies with most layoff
 # take top 5 companies compared to rest of the industry
@@ -162,7 +162,7 @@ Our analysis reveals the varying effects of layoffs on the top 5 tech companies 
 # Funding Stage Analysis
 We analyzed the layoffs in the tech sector from 2020 to 2024, to dertermine what effect company maturity had on layoffs. To do this we defined company maturity on the company funding stages.
 ## Code Snippits
-The follow is a significant portion of the code used to clean, filter, and visualize the data for Funding Stage analysis
+The following is a significant portion of the code used to clean, filter, and visualize the data for Funding Stage analysis
 ```
 # Clean the data
 # Check for duplicates in the Company column sorted by Date_layoffs
