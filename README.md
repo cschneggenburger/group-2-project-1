@@ -105,6 +105,29 @@ The post-IPO companies had the lowest median layoff percentage, with 7.3%, indic
 Our analysis provides a comprehensive overview of the layoffs in the tech sector from 2020 to 2024, based on the company funding stages. 
 
 
+# Plot a pie chart for percentage comparison
+# Define colors for the slices
+colors = ['dodgerblue', 'deepskyblue', 'orange', 'seagreen', 'darkslategrey', 'red']
+
+# Plot the pie chart
+
+pie = industry_df.plot.pie(y='Laid_Off',
+                           autopct='%1.1f%%',  # Display percentages
+                           startangle=140,
+                           shadow=True,
+                           colors=colors,
+                           pctdistance=0.85,
+                           wedgeprops={'edgecolor': 'black', 'linewidth': 1, 'antialiased': True},
+                           textprops={'rotation': 0, 'fontname': 'Arial', 'color': 'White'}
+                          )
+#Refine the pie chart for readability and understanding
+plt.title('Top 5 Industries Impacted vs All Other Industries (by total employees laid off)', fontsize=14)
+plt.axis('equal')
+plt.ylabel('')
+
+plt.show()
+
+## Conclusion
 
 ## Conclusion
 
